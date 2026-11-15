@@ -1,13 +1,20 @@
 {
   "version": 1,
   "kind": "cli",
-  "setup": [],
+  "setup": [
+    "python3",
+    "-I",
+    "-c",
+    "import sqlite3; print('sqlite', sqlite3.sqlite_version)"
+  ],
   "verify": [
     "python3",
-    "fixture_check.py"
+    "-I",
+    "verify.py"
   ],
   "demo": [
     "python3",
-    "fixture_check.py"
+    "-I",
+    "demo.py"
   ]
 }
