@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": [],
+  "verify": [
+    "python3",
+    "fixture_check.py"
+  ],
+  "demo": [
+    "python3",
+    "fixture_check.py"
+  ]
+}
